@@ -119,9 +119,10 @@ Empowering HR with data-driven insights for better workforce planning.
 
 ---
 
-## 🧑‍💻 Author
+## 🧑‍💻 Done by
+  Guru prasad V
 
-Built with ❤️ by **[PREETHI S]**
+
 
 ---
 
