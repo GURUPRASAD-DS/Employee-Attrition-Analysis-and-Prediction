@@ -67,19 +67,14 @@ Empowering HR with data-driven insights for better workforce planning.
   - Binary Encoding for binary features  
   - One-Hot Encoding for multi-class categorical variables  
 
-### 4️⃣ Handling Class Imbalance  
-- **Attrition Prediction:** Applied **SMOTE** oversampling to balance minority class  
-- **Performance Rating Prediction:** Used **Random Undersampling** for balanced training  
-
 ### 5️⃣ Feature Scaling & Data Splitting  
-- Scaled features using **MinMaxScaler** to normalize feature ranges  
+- Scaled features using **Standard Scalar** to normalize feature ranges  
 - Split data into train/test sets ensuring stratified distribution  
 
 ### 6️⃣ Model Training, Cross-Validation & Comparison  
 - Trained multiple candidate models:  
-  - Random Forest, XGBoost, SVM, K-Nearest Neighbors, Logistic Regression, Decision Tree  
-- Used **Stratified K-Fold Cross-Validation** for robust performance estimation  
-- Evaluated models on:  
+  - Random Forest, XGBoost, Logistic Regression, Decision Tree  
+ - Evaluated models on:  
   - Accuracy, Precision, Recall, F1-Score, ROC-AUC  
 - Compared models and selected the best performer based on highest F1-Score and balanced metrics  
 
@@ -113,7 +108,7 @@ Empowering HR with data-driven insights for better workforce planning.
 
 ## ✅ Key Results Summary
 
-- 🚀 Achieved **F1-Scores above 90%** on balanced test sets for both prediction tasks  
+- 🚀 Achieved **F1-Scores above 85** on balanced test sets for both prediction tasks  
 - 🔄 Stable and consistent cross-validation results proving model robustness  
 - ⚡ Real-time, deployable app enabling HR to make informed, proactive decisions  
 
